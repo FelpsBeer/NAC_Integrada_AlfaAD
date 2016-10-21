@@ -1,3 +1,12 @@
+ /**
+* 
+* @author Felipe Moita Vieira 
+* @author João Miguel Souza Martins
+* @author Marcelo Pereira Marco Peres
+* 
+* @see    		   Forum
+*/
+
 package br.com.fiap.dao;
 
 import java.sql.Connection;
@@ -6,6 +15,15 @@ import java.sql.PreparedStatement;
 import br.com.fiap.beans.Forum;
 
 public class ForumDAO extends PessoaDAO{
+	
+	/**
+	 * Método que <b>adiciona</b> uma tupla nas tabelas
+	 * T_AAD_PESSOA
+	 * T_AAD_FORUM
+	 * @param f um objeto do tipo Forum
+	 * @param conexao um objeto do tipo Connection
+	 * @throws Exception
+	 */
 
 	public void gravar (Forum f, Connection conexao ) throws Exception{
 		 

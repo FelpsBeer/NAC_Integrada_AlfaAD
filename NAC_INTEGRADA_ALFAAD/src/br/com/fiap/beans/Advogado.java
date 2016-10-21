@@ -1,3 +1,11 @@
+/**
+ * @author Felipe Moita Vieira 
+ * @author João Miguel Souza Martins
+ * @author Marcelo Pereira Marco Peres
+ * 
+ * @see AdvogadoBO
+ */
+
 package br.com.fiap.beans;
 
 import java.util.List;
@@ -11,13 +19,7 @@ public class Advogado extends Pessoa{
 	private String senha;
 	private TipoCausa especialidade;
 	
-	
-
 	public Advogado() {}
-
-
-
-	
 
 	public Advogado(int codigo, String nome, List<Endereco> endereco, List<Telefone> telefone, String numeroOAB,
 			String cpf, String rg, String email, String senha, TipoCausa especialidade) {

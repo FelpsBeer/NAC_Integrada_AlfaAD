@@ -1,3 +1,11 @@
+/**
+ * @author Felipe Moita Vieira 
+ * @author João Miguel Souza Martins
+ * @author Marcelo Pereira Marco Peres
+ * 
+ * @see LancamentoHonoriaioDAO.java
+ */
+
 package br.com.fiap.bo;
 
 import java.sql.Connection;
@@ -9,7 +17,7 @@ import br.com.fiap.excecao.Excecao;
 public abstract class LancamentoHonoriaioBO {
 	
 		public static void gravar(LancamentoHonorario lh, Connection conexao) throws Exception{
-			if(lh.getDataHonorario().length() < 6){
+			if(lh.getDataHonorario().length() < 10){
 				throw new Excecao("Data Inválida");
 			}
 			

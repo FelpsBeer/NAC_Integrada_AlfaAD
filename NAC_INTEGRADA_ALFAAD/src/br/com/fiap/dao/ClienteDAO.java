@@ -1,3 +1,12 @@
+ /**
+* 
+* @author Felipe Moita Vieira 
+* @author João Miguel Souza Martins
+* @author Marcelo Pereira Marco Peres
+* 
+* @see    		   Cliente
+*/
+
 package br.com.fiap.dao;
 
 import java.sql.Connection;
@@ -6,6 +15,16 @@ import java.sql.PreparedStatement;
 import br.com.fiap.beans.Cliente;
 
 public class ClienteDAO extends PessoaDAO{
+	
+	 /**
+	  * 
+	 * Método que <b>adiciona</b> uma tupla nas tabelas
+	 * T_AAD_PESSOA. 
+	 * T_AAD_CLIENTE.
+	 * @param c Um objeto do tipo Cliente
+	 * @param conexao Um objeto do tipo Connection
+	 * @throws Exception
+	 */
 	
 	public void gravar (Cliente c, Connection conexao ) throws Exception{
 		 
