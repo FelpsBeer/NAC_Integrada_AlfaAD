@@ -1,3 +1,11 @@
+/**
+ * @author Felipe Moita Vieira 
+ * @author João Miguel Souza Martins
+ * @author Marcelo Pereira Marco Peres
+ * 
+ * @see TipoTarefaBO
+ */
+
 package br.com.fiap.beans;
 
 public class TipoTarefa {

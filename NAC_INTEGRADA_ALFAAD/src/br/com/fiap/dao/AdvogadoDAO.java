@@ -1,3 +1,13 @@
+ /**
+* 
+* @author Felipe Moita Vieira 
+* @author João Miguel Souza Martins
+* @author Marcelo Pereira Marco Peres
+* 
+* @see    		   Advogado
+*/
+
+
 package br.com.fiap.dao;
  
 import java.sql.Connection;
@@ -5,7 +15,17 @@ import java.sql.PreparedStatement;
 import br.com.fiap.beans.Advogado;
  
 public class AdvogadoDAO extends PessoaDAO {
- 
+	
+ /**
+  * 
+ * Método que <b>adiciona</b> uma tupla nas tabelas
+ * T_AAD_PESSOA. 
+ * T_AAD_ADVOGADO.
+ * T_AAD_ESPECIALIDADE.
+ * @param a Um objeto do tipo Advogado
+ * @param conexao Um objeto do tipo Connection
+ * @throws Exception
+ */
      
     public void gravar (Advogado a, Connection conexao ) throws Exception{
  
